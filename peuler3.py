@@ -2,8 +2,8 @@
 # STATUS: wip
 # AUTHOR: KeizerZilla
 
-import platform
-import os
+# function is_prime(n)
+# returns True if n is a prime number, False otherwise
 
 def is_prime(n):
     if n <= 1:
@@ -20,22 +20,22 @@ def is_prime(n):
 
     return True
 
-clear_cmd = ""
-if platform.system() == "Windows":
-    clear_cmd = "cls"
-else:
-    clear_cmd = "clear"
+# main code
 
-number = 13195
-div = number
+number = 600851475143
+div = 2
+ret = div
 
-while True:
-    if(div % 2 != 0):
+print("SEARCHING...")
+
+while number > 1:
+    if(is_prime(div)):
         if(number % div == 0):
-            if(is_prime(div)):
-                break
-    div -= 1
-    os.system(clear_cmd)
-    print("TESTING: " + str(div))
+            ret = div
+            number /= div
+            div -= 1
+            print("CANDIDATE: " + str(ret))
 
-print("MATCH: " + str(div))
+    div += 1
+
+print("MATCH: " + str(ret))

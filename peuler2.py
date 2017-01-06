@@ -2,6 +2,9 @@
 # STATUS: solved!
 # AUTHOR: KeizerZilla
 
+# function fibo(limit)
+# returns a sequence of fibonacci witch the last number is equal or less than limit
+
 def fibo(limit):
     sequence = []
     sequence.append(1)
@@ -15,6 +18,8 @@ def fibo(limit):
         l = sequence[index] + sequence[index-1]
 
     return sequence
+
+# main code
 
 sum = 0;
 for value in fibo(4000000):
