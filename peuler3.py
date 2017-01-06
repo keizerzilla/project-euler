@@ -1,5 +1,5 @@
 # PROBLEM: largest prime factor of 600851475143
-# STATUS: wip
+# STATUS: solved!
 # AUTHOR: KeizerZilla
 
 # function is_prime(n)
