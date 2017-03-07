@@ -12,7 +12,7 @@ line = file.readline()
 while line != '':
     for i in range(0, 50):
         bignumber.append(int(line[i]))
-    
+
     line = file.readline()
 
 # scan using a 13-digit window thru the list, calculating the product and saving the max found

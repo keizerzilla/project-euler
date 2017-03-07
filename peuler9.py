@@ -4,3 +4,10 @@
 
 
 # main code
+
+# you awake on a closet
+# someone is with you
+# rick is dead
+# you must choose between: wait or get out
+
+print("THE GAME")
