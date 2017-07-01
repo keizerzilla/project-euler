@@ -1,2 +1,2 @@
 # PROJECT EULER SOLVINGS by KeizerZilla
-MATH ROCKS!
+My solvings for ProjectEuler.net problems. Mostly pyhton.
