@@ -1,2 +1,2 @@
-# PROJECT EULER SOLVINGS by KeizerZilla
-My solvings for ProjectEuler.net problems. Mostly pyhton.
+- Minha soluções para os problemas matemáticos do site ProjectEuler.net
+- A maior parte (se não todos) os códigos estão em Python 3.x
